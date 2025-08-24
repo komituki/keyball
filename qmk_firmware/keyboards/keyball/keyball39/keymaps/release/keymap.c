@@ -54,7 +54,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_TAB   , KC_A     , KC_E     , KC_R     , KC_T     ,                            KC_Y     , KC_U     , KC_I     , KC_O     , KC_P     ,
     KC_Z     , KC_S     , KC_D     , KC_F     , KC_G     ,                            KC_H     , KC_J     , KC_K     , KC_L     , KC_MINUS ,
     KC_V     , KC_X     , KC_C     ,LT(2,KC_W),LT(3,KC_B),                            KC_N     , KC_M     , KC_COMMA , KC_DOT   , KC_SLASH ,
-    LSFT_T(KC_LANG2),KC_LALT,LT(1,KC_ESC),LCMD_T(KC_SPACE),LCTL_T(KC_F13),KC_Q,       KC_BSPC, KC_ENT,_______,_______,_______, LT(1,KC_LANG1)
+    LSFT_T(KC_LNG2),KC_LALT,LT(1,KC_ESC),LCMD_T(KC_SPACE),LCTL_T(KC_F13),KC_Q,       KC_BSPC, KC_ENT,_______,_______,_______, LT(1,KC_LNG1)
   ),
 
   [1] = LAYOUT_universal(
@@ -65,7 +65,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   ),
 
   [2] = LAYOUT_universal(
-    _______  , _______  , _______  , KC_COMMA , KC_PDOT  ,                            KC_ESC   , KC_7     , KC_8     , KC_9     , KC_NUMLOCK,
+    _______  , _______  , _______  , KC_COMMA , KC_PDOT  ,                            KC_ESC   , KC_7     , KC_8     , KC_9     , KC_NUM_LOCK,
     _______  , _______  , KC_LEFT  , KC_RIGHT , KC_SPACE ,                            KC_PSLS  , KC_4     , KC_5     , KC_6     , KC_PPLS  ,
     _______  , _______  , _______  , _______  , _______  ,                            KC_PMNS  , KC_1     , KC_2     , KC_3     , KC_PAST  ,
     _______, _______, _______, _______, _______, _______ ,                            _______  , KC_0     ,_______,_______,_______, _______
@@ -74,8 +74,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [3] = LAYOUT_universal(
     KC_GRAVE , S(KC_2)  , S(KC_3)  , S(KC_4)  , S(KC_5)  ,                            S(KC_6)  , S(KC_7)  , S(KC_9)  , S(KC_0)  , S(KC_8)  ,
     _______  , _______  , KC_LEFT  , KC_RIGHT , KC_SPACE ,                            S(KC_1)  , KC_QUOTE , KC_LBRC  , KC_RBRC  , KC_EQUAL ,
-    CPI_I100 , CPI_D100 , SCRL_DVI , SCRL_DVD , _______  ,                            KC_SCLN  , _______  , _______  , _______  , KC_BSLASH ,
-    _______, _______, _______, _______, RGB_TOG , RESET  ,                            _______  , _______  ,_______,_______,_______, _______
+    CPI_I100 , CPI_D100 , SCRL_DVI , SCRL_DVD , _______  ,                            KC_SCLN  , _______  , _______  , _______  , KC_BSLS ,
+    _______, _______, _______, _______, RGB_TOG , QK_BOOT,                            _______  , _______  ,_______,_______,_______, _______
   ),
 
   [4] = LAYOUT_universal(
