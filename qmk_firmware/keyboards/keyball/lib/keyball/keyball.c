@@ -156,7 +156,7 @@ void pointing_device_driver_init(void) {
 #endif
         pmw3360_cpi_set(CPI_DEFAULT - 1);
 #ifdef POINTING_DEVICE_AUTO_MOUSE_ENABLE
-        set_auto_mouse_layer(1);
+        set_auto_mouse_layer(2);
 #endif
     }
 }
